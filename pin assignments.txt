@@ -1,0 +1,45 @@
+Original digital pin functions
+
+Switch inputs
+
+1 poly/mono (no)
+
+2, 3   Shape A
+4, 5   Shape B
+6, 7   Main octave (need to repurpose 7)
+8, 12  Oct B
+10, 11 Oct C
+13	   Filter mode (needs one more)
+24, 25 LFO destination
+26, 27 lfo shape
+
+44     Preset save 1 (no)
+45	   Preset save 2 (no)
+46	   Preset save 3  no
+48	   Preset save 4  no
+49	   Preset save 5  no
+
+New digital pin functions...
+
+2, 3   Shape A
+4, 5   Shape B
+
+6, 8   Main octave
+10, 11 Oct B
+12, 24 Oct C
+25, 26 Filter mode
+27, 28 LFO destination
+29, 30 LFO Shape
+31 	   Preset save
+32	   Preset reset
+
+7, 9, 20, 21, 22, 23 free for I2S interface:
+
+Model   DIN   WCLK   BCLK
+3.6		22	  23     9
+4.1     7     20     21
+
+MUX pins 37, 38, 39
+Inputs A0, A1, A2, A3 (14, 15, 16, 17)
+
+LED outputs for presets 33, 34, 35, 36, 18,
